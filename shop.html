@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SurplusHub - Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script defer src="../src/app.js"></script>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen p-6">
+  <h1 class="text-3xl font-bold text-green-600 mb-6">SurplusHub - Shop Dashboard</h1>
+  <form id="add-item-form" class="bg-white p-6 rounded shadow-md w-full max-w-md mb-6">
+    <input type="text" id="itemName" placeholder="Item Name" required class="border p-2 w-full mb-4">
+    <input type="number" id="price" placeholder="Price" required class="border p-2 w-full mb-4">
+    <input type="number" id="quantity" placeholder="Quantity" required class="border p-2 w-full mb-4">
+    <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded w-full hover:bg-green-600">Add Surplus Item</button>
+  </form>
+</body>
+</html>
